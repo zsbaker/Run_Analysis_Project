@@ -113,4 +113,4 @@ names(total_dataset) =c(as.character(features_col_desc),"activitylabel","subject
 total_dataset_avg_by_activity_subject = total_dataset %>% group_by(activitylabel,subject) %>% summarize_all(funs(mean))
 
 
-
+write.table(total_dataset_avg_by_activity_subject, file = "total_dataset_avg_by_activity_subject.txt", row.names=FALSE)
