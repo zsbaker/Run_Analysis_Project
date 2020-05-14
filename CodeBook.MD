@@ -1,8 +1,7 @@
----
-title: RUN ANALYSIS PROJECT
-author:
-  - name: "Zack S. Baker"
----
+
+#RUN ANALYSIS PROJECT
+_author:"Zack S. Baker"_
+
 
 ## Overview
 
@@ -11,7 +10,7 @@ As part of Getting and Cleaning Data, this project entails downloading accelerom
 
 ## run_analysis.R Script
 
-\
+
 
 ### Data preparation
 
@@ -23,19 +22,19 @@ Within the main folder, the activity labels and features was used to discern res
 
 The following folder paths were represented by character vectors:
 
-\
+
 
 #### Data folder Location
 **data_folder**= parent folder of all data files used 
 
-\
+
 
 #### Common files
 **features_file** = file with feature names
 
 **activity_label_file** = file with activity labels
 
-\
+
 
 #### Train and Test Datasets
 **train_x_data** = train observation data
@@ -50,8 +49,8 @@ The following folder paths were represented by character vectors:
 
 **test_subjects** = test subjects
 
-\
-\
+
+
 
 ### Function Call
 
@@ -81,12 +80,12 @@ rbind_datasets = function(folder_location, file1, file2){
 }
 ```
 
-\
-\
+
+
 
 ### Variables
 
-\
+
 
 #### Features and Activity Labels
 
@@ -98,7 +97,7 @@ rbind_datasets = function(folder_location, file1, file2){
 
 **data_activity_labels** : contains tabel mapping between activity code and text label
 
-\
+
 
 #### Joined data
 
@@ -108,7 +107,7 @@ rbind_datasets = function(folder_location, file1, file2){
 
 **total_subjects** : contains joined list of subjects from train and test observations
 
-\
+
 
 #### Final tidy datasets
 
@@ -117,7 +116,7 @@ rbind_datasets = function(folder_location, file1, file2){
 **total_dataset_avg_by_activity_subject** : dataset that takes the total_dataset and groups by activity and subject; and _ultimately_ obtaining the mean value of each features by grouping.
 
 
-\
+
 
 ### Summary
 
