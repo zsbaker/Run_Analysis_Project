@@ -125,6 +125,6 @@ rbind_datasets = function(folder_location, file1, file2){
 
 ### <u>Summary</u>
 
-For a review of the codebook for the total_dataset with a sample of 5 variable outputs, see the [Brief Total Dataset Codebook](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip).
+For a review of the codebook for the total_dataset with a sample of 5 variable outputs, see the [Brief Total Dataset Codebook](https://zsbaker.github.io/Run_Analysis_Project/codebook_total_dataset.html).
 
 
