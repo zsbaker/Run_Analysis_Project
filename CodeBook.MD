@@ -1,14 +1,16 @@
 
-#RUN ANALYSIS PROJECT
-_author:"Zack S. Baker"_
+# RUN ANALYSIS PROJECT
+
+_Author:Zack S. Baker_
 
 
-## Overview
+### _Overview_
 
 As part of Getting and Cleaning Data, this project entails downloading accelerometer data collected from a number of galaxy smartphones.
 
+<br />
 
-## run_analysis.R Script
+## run_analysis.R
 
 
 
@@ -18,23 +20,25 @@ The information was downloaded from the following site link to the [HAR Using Sm
 
 Folder structure once unzipped, included a train and test fold paths with equal sets of data for labels, observations and subjects. 
 
-Within the main folder, the activity labels and features was used to discern results observed. 
+Within the main folder, the activity labels and features was used to discern results observed.
+
+<br />
 
 The following folder paths were represented by character vectors:
 
-
+<br />
 
 #### Data folder Location
 **data_folder**= parent folder of all data files used 
 
-
+<br />
 
 #### Common files
 **features_file** = file with feature names
 
 **activity_label_file** = file with activity labels
 
-
+<br />
 
 #### Train and Test Datasets
 **train_x_data** = train observation data
@@ -49,8 +53,8 @@ The following folder paths were represented by character vectors:
 
 **test_subjects** = test subjects
 
-
-
+<br />
+<br />
 
 ### Function Call
 
@@ -80,12 +84,12 @@ rbind_datasets = function(folder_location, file1, file2){
 }
 ```
 
-
-
+<br />
+<br />
 
 ### Variables
 
-
+<br />
 
 #### Features and Activity Labels
 
@@ -97,7 +101,7 @@ rbind_datasets = function(folder_location, file1, file2){
 
 **data_activity_labels** : contains tabel mapping between activity code and text label
 
-
+<br />
 
 #### Joined data
 
@@ -107,7 +111,7 @@ rbind_datasets = function(folder_location, file1, file2){
 
 **total_subjects** : contains joined list of subjects from train and test observations
 
-
+<br />
 
 #### Final tidy datasets
 
@@ -115,8 +119,8 @@ rbind_datasets = function(folder_location, file1, file2){
 
 **total_dataset_avg_by_activity_subject** : dataset that takes the total_dataset and groups by activity and subject; and _ultimately_ obtaining the mean value of each features by grouping.
 
-
-
+<br />
+<br />
 
 ### Summary
 
