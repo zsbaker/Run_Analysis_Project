@@ -18,3 +18,10 @@ As required for the assignment, after downloading the required files, the follow
 	5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
   
 
+## Links to Files:
+
+1. [run_analysis.R](https://github.com/zsbaker/Run_Analysis_Project/blob/master/run_analysis.R).
+
+2. [CodeBook for run_analysis](https://github.com/zsbaker/Run_Analysis_Project/blob/master/CodeBook.MD).
+
+2. [(optional) CodeBook for total_dataset](https://zsbaker.github.io/Run_Analysis_Project/codebook_total_dataset.html).
