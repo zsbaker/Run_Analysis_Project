@@ -1,8 +1,9 @@
 
-# RUN ANALYSIS PROJECT
+# Run Analysis Project CodeBook
 
 _Author:Zack S. Baker_
 
+<br />
 
 ### _Overview_
 
@@ -14,7 +15,7 @@ As part of Getting and Cleaning Data, this project entails downloading accelerom
 
 
 
-### Data preparation
+### <u>Data Preparation</u>
 
 The information was downloaded from the following site link to the [HAR Using Smartphones  Dataset](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip).
 
@@ -56,7 +57,7 @@ The following folder paths were represented by character vectors:
 <br />
 <br />
 
-### Function Call
+### <u>Function Call</u>
 
 The rbind_datasets function was used to merge train and test data with similar structure. 
 This was used to bind subjects, labels and observations
@@ -87,7 +88,7 @@ rbind_datasets = function(folder_location, file1, file2){
 <br />
 <br />
 
-### Variables
+### <u>Variables</u>
 
 <br />
 
@@ -122,7 +123,7 @@ rbind_datasets = function(folder_location, file1, file2){
 <br />
 <br />
 
-### Summary
+### <u>Summary</u>
 
 For a review of the codebook for the total_dataset with a sample of 5 variable outputs, see the [Brief Total Dataset Codebook](http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip).
 
